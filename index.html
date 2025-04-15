@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LEMAL</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malphite TOP Guide | Road to Gold</title>
+    <link rel="stylesheet" href="styles-premium.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Malphite.png" alt="Malphite" class="champion-icon pulse">
+                <div class="title">
+                    <h1 class="text-gradient">MALPHITE TOP - Kevin est meilleur</h1>
+                    <p>Guide ultime pour atteindre le rang Gold</p>
+                </div>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="#overview" class="active"><i class="fas fa-info-circle"></i> Aperçu</a></li>
+                <li><a href="#runes"><i class="fas fa-magic"></i> Runes</a></li>
+                <li><a href="#summonerspells"><i class="fas fa-bolt"></i> Sorts</a></li>
+                <li><a href="#builds"><i class="fas fa-hammer"></i> Builds</a></li>
+                <li><a href="#matchups"><i class="fas fa-chess"></i> Matchups</a></li>
+                <li><a href="#phases"><i class="fas fa-hourglass-half"></i> Phases</a></li>
+                <li><a href="#tips"><i class="fas fa-lightbulb"></i> Astuces</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="overview" class="card fade-in">
+                <h2>Pourquoi Malphite TOP ?</h2>
+                <div class="overview-content">
+                    <div class="pros-cons">
+                        <div class="pros">
+                            <h3><i class="fas fa-plus-circle"></i> Forces</h3>
+                            <ul>
+                                <li><strong>Engage sécurisé</strong> avec son ulti imparable</li>
+                                <li><strong>Tank naturel</strong> grâce à son passif et scaling d'armure</li>
+                                <li><strong>Facile à jouer</strong> même pour les débutants</li>
+                                <li><strong>Dominance en lane</strong> contre les champions AD</li>
+                                <li><strong>Impact énorme</strong> en teamfight avec CC AoE</li>
+                            </ul>
+                        </div>
+                        <div class="cons">
+                            <h3><i class="fas fa-minus-circle"></i> Faiblesses</h3>
+                            <ul>
+                                <li><strong>Faible contre AP</strong> en early game</li>
+                                <li><strong>Mana limitée</strong> avant les premiers items</li>
+                                <li><strong>Mobilité réduite</strong> sans ulti</li>
+                                <li><strong>Farming difficile</strong> sous tour</li>
+                                <li><strong>Cible facile</strong> pour les ganks avant niveau 6</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="abilities">
+                        <div class="ability">
+                            <div class="ability-header">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/passive/Malphite_GraniteShield.png" alt="Passive">
+                                <span>Passif - Bouclier de granite</span>
+                            </div>
+                            <p>Bouclier basé sur ta vie max qui se recharge quand tu n'es pas attaqué. Excellent pour les trades courts.</p>
+                        </div>
+                        <div class="ability">
+                            <div class="ability-header">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/SeismicShard.png" alt="Q">
+                                <span>Q - Éclat sismique</span>
+                            </div>
+                            <p>Lance un éclat qui inflige des dégâts, ralentit l'ennemi et te donne un boost de vitesse. Parfait pour engager ou s'échapper.</p>
+                        </div>
+                        <div class="ability">
+                            <div class="ability-header">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/Obduracy.png" alt="W">
+                                <span>W - Éboulement</span>
+                            </div>
+                            <p>Passif: Gain d'armure. Actif: Augmente tes dégâts d'attaque et crée une zone de dégâts autour de toi. Great pour le clear et les trades.</p>
+                        </div>
+                        <div class="ability">
+                            <div class="ability-header">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/Landslide.png" alt="E">
+                                <span>E - Frappe tonnante</span>
+                            </div>
+                            <p>Frappe le sol infligeant des dégâts AoE et réduisant la vitesse d'attaque des ennemis. Efficace contre les champions auto-attack.</p>
+                        </div>
+                        <div class="ability">
+                            <div class="ability-header">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/UFSlash.png" alt="R">
+                                <span>R - Force implacable</span>
+                            </div>
+                            <p>Charge vers une zone cible, infligeant de gros dégâts et étourdissant les ennemis. Ultimate game-changer en teamfight.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="runes" class="card fade-in">
+                <h2>Runes</h2>
+                <div class="rune-builds">
+                    <div class="rune-build primary">
+                        <h3><i class="fas fa-shield-alt"></i> Build principal: Grasp (Tank)</h3>
+                        <div class="rune-tree resolve">
+                            <div class="keystone">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png" alt="Grasp">
+                                <span>Emprise de l'immortel</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/Demolish/Demolish.png" alt="Demolish">
+                                <span>Démolition</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/BonePlating/BonePlating.png" alt="Bone Plating">
+                                <span>Plaquage d'os</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png" alt="Overgrowth">
+                                <span>Excroissance</span>
+                            </div>
+                        </div>
+                        <div class="rune-tree inspiration">
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" alt="Biscuit Delivery">
+                                <span>Livraison de biscuits</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png" alt="Time Warp Tonic">
+                                <span>Tonique de distorsion temporelle</span>
+                            </div>
+                        </div>
+                        <div class="rune-bonuses">
+                            <div class="bonus">+9 Force Adaptative</div>
+                            <div class="bonus">+6 Armure</div>
+                            <div class="bonus">+8 Armure</div>
+                        </div>
+                    </div>
+                    <div class="rune-build alternative">
+                        <h3><i class="fas fa-meteor"></i> Alternative: Comète (AP)</h3>
+                        <div class="rune-tree sorcery">
+                            <div class="keystone">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png" alt="Arcane Comet">
+                                <span>Comète arcanique</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png" alt="Manaflow Band">
+                                <span>Cercle de mana</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/Transcendence/Transcendence.png" alt="Transcendence">
+                                <span>Transcendance</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Sorcery/Scorch/Scorch.png" alt="Scorch">
+                                <span>Calcination</span>
+                            </div>
+                        </div>
+                        <div class="rune-tree inspiration">
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png" alt="Biscuit Delivery">
+                                <span>Livraison de biscuits</span>
+                            </div>
+                            <div class="rune-row">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png" alt="Time Warp Tonic">
+                                <span>Tonique de distorsion temporelle</span>
+                            </div>
+                        </div>
+                        <div class="rune-bonuses">
+                            <div class="bonus">+9 Force Adaptative</div>
+                            <div class="bonus">+9 Force Adaptative</div>
+                            <div class="bonus">+6 Armure</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rune-explanation">
+                    <h3><i class="fas fa-info-circle"></i> Explications</h3>
+                    <p><strong>Grasp:</strong> Parfait pour le build tank standard. Augmente ta durabilité en lane et stack de la vie permanente, synergisant avec ton passif.</p>
+                    <p><strong>Comète:</strong> Pour un style plus agressif et poke-oriented. Excellent contre les matchups faciles ou quand ton équipe a besoin de plus de dégâts.</p>
+                    <p><strong>Plaquage d'os:</strong> Réduit considérablement les dégâts lors des trades. Particulièrement utile contre les champions burst.</p>
+                    <p><strong>Transcendance:</strong> Compense le manque de CDR dans le build AP, te permettant de spam tes sorts plus souvent.</p>
+                </div>
+            </section>
+
+            <section id="summonerspells" class="card fade-in">
+                <h2>Sorts d'invocateur</h2>
+                <div class="summoner-spells">
+                    <div class="spell-combo">
+                        <div class="spell">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/SummonerFlash.png" alt="Flash">
+                            <span>Flash</span>
+                        </div>
+                        <div class="spell">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/SummonerTeleport.png" alt="Teleport">
+                            <span>Téléportation</span>
+                        </div>
+                        <div class="spell-description">
+                            <h4>Flash + TP <span class="text-accent">(Recommandé)</span></h4>
+                            <p>La combinaison standard pour top. TP te permet d'avoir un impact global et de revenir rapidement en lane après un back.</p>
+                        </div>
+                    </div>
+                    <div class="spell-combo alternative">
+                        <div class="spell">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/SummonerFlash.png" alt="Flash">
+                            <span>Flash</span>
+                        </div>
+                        <div class="spell">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/spell/SummonerDot.png" alt="Ignite">
+                            <span>Ignite</span>
+                        </div>
+                        <div class="spell-description">
+                            <h4>Flash + Ignite <span class="text-accent2">(Agressif)</span></h4>
+                            <p>Pour un style plus agressif. Idéal quand tu joues Malphite AP contre des champions squishies pour garantir les kills.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="builds" class="card fade-in">
+                <h2>Builds</h2>
+                <div class="build-paths">
+                    <div class="build-path">
+                        <h3><i class="fas fa-shield-alt"></i> Build Tank Standard</h3>
+                        <div class="items">
+                            <div class="item starter" data-item="Doran's Shield">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1054.png" alt="Doran's Shield">
+                                <span>Bouclier de Doran</span>
+                                <div class="tooltip">Item de départ - Régénération & Survie</div>
+                            </div>
+                            <div class="item core" data-item="Sunfire Aegis">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3068.png" alt="Sunfire Aegis">
+                                <span>Égide de Feu Solaire</span>
+                                <div class="tooltip">Core - Dégâts AoE & Tankiness</div>
+                            </div>
+                            <div class="item core" data-item="Frozen Heart">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3110.png" alt="Frozen Heart">
+                                <span>Cœur Gelé</span>
+                                <div class="tooltip">Core - Armure & Mana & CDR</div>
+                            </div>
+                            <div class="item core" data-item="Thornmail">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3075.png" alt="Thornmail">
+                                <span>Cotte épineuse</span>
+                                <div class="tooltip">Core - Anti-Heal & Retour de dégâts</div>
+                            </div>
+                            <div class="item situational" data-item="Force of Nature">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/4401.png" alt="Force of Nature">
+                                <span>Force de la Nature</span>
+                                <div class="tooltip">Situationnel - Contre AP</div>
+                            </div>
+                            <div class="item situational" data-item="Abyssal Mask">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3001.png" alt="Abyssal Mask">
+                                <span>Masque Abyssal</span>
+                                <div class="tooltip">Situationnel - MR & Amplifie dégâts équipe</div>
+                            </div>
+                            <div class="item situational" data-item="Gargoyle Stoneplate">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3193.png" alt="Gargoyle Stoneplate">
+                                <span>Plaque de Pierre</span>
+                                <div class="tooltip">Situationnel - Tankiness en teamfight</div>
+                            </div>
+                        </div>
+                        <div class="build-explanation">
+                            <p>Ce build maximise ta résilience, t'offrant une survivabilité exceptionnelle et un bon CC. L'Égide de Feu Solaire te permet de faire des dégâts constants en teamfight tout en restant extrêmement tank.</p>
+                        </div>
+                        <button class="button copy-build-btn" data-build="tank"><i class="fas fa-copy"></i> Copier ce build</button>
+                    </div>
+                    <div class="build-path">
+                        <h3><i class="fas fa-meteor"></i> Build AP</h3>
+                        <div class="items">
+                            <div class="item starter" data-item="Doran's Ring">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/1056.png" alt="Doran's Ring">
+                                <span>Anneau de Doran</span>
+                                <div class="tooltip">Item de départ - Mana & AP</div>
+                            </div>
+                            <div class="item core" data-item="Luden's Tempest">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/6655.png" alt="Luden's Tempest">
+                                <span>Tempête de Luden</span>
+                                <div class="tooltip">Core - Burst & Pen Magic</div>
+                            </div>
+                            <div class="item core" data-item="Shadowflame">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/4645.png" alt="Shadowflame">
+                                <span>Flamme d'ombre</span>
+                                <div class="tooltip">Core - Pen Magic & HP</div>
+                            </div>
+                            <div class="item core" data-item="Zhonya's Hourglass">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3157.png" alt="Zhonya's Hourglass">
+                                <span>Sablier de Zhonya</span>
+                                <div class="tooltip">Core - Stase & Armure</div>
+                            </div>
+                            <div class="item situational" data-item="Rabadon's Deathcap">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3089.png" alt="Rabadon's Deathcap">
+                                <span>Coiffe de Rabadon</span>
+                                <div class="tooltip">Situationnel - Boost AP massif</div>
+                            </div>
+                            <div class="item situational" data-item="Void Staff">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3135.png" alt="Void Staff">
+                                <span>Bâton du Vide</span>
+                                <div class="tooltip">Situationnel - Pen Magic vs. MR</div>
+                            </div>
+                            <div class="item situational" data-item="Demonic Embrace">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/4637.png" alt="Demonic Embrace">
+                                <span>Étreinte démoniaque</span>
+                                <div class="tooltip">Situationnel - HP & Dégâts overtime</div>
+                            </div>
+                        </div>
+                        <div class="build-explanation">
+                            <p>Le build AP transforme Malphite en assassin. Ton ulti peut éliminer instantanément les carries ennemis. Excellent pour carry en soloQ quand ton équipe manque de dégâts, mais tu seras plus vulnérable.</p>
+                        </div>
+                        <button class="button copy-build-btn" data-build="ap"><i class="fas fa-copy"></i> Copier ce build</button>
+                    </div>
+                </div>
+                <div class="boots">
+                    <h3><i class="fas fa-shoe-prints"></i> Bottes</h3>
+                    <div class="boot-options">
+                        <div class="boot">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3047.png" alt="Ninja Tabi">
+                            <span>Tabi Ninja <span class="text-accent">(vs AD)</span></span>
+                        </div>
+                        <div class="boot">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3111.png" alt="Mercury Treads">
+                            <span>Sandales de Mercure <span class="text-accent2">(vs AP/CC)</span></span>
+                        </div>
+                        <div class="boot">
+                            <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/item/3020.png" alt="Sorcerer's Shoes">
+                            <span>Souliers du Sorcier <span class="text-accent">(Build AP)</span></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="matchups" class="card fade-in">
+                <h2>Matchups TOP</h2>
+                <div class="matchup-difficulty">
+                    <div class="matchup-category easy">
+                        <h3><i class="fas fa-smile"></i> Faciles</h3>
+                        <div class="matchups">
+                            <div class="matchup" data-champion="Riven">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Riven.png" alt="Riven">
+                                <span>Riven</span>
+                            </div>
+                            <div class="matchup" data-champion="Irelia">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Irelia.png" alt="Irelia">
+                                <span>Irelia</span>
+                            </div>
+                            <div class="matchup" data-champion="Renekton">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Renekton.png" alt="Renekton">
+                                <span>Renekton</span>
+                            </div>
+                            <div class="matchup" data-champion="Yasuo">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Yasuo.png" alt="Yasuo">
+                                <span>Yasuo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="matchup-category skill">
+                        <h3><i class="fas fa-balance-scale"></i> Modérés</h3>
+                        <div class="matchups">
+                            <div class="matchup" data-champion="Jax">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Jax.png" alt="Jax">
+                                <span>Jax</span>
+                            </div>
+                            <div class="matchup" data-champion="Aatrox">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Aatrox.png" alt="Aatrox">
+                                <span>Aatrox</span>
+                            </div>
+                            <div class="matchup" data-champion="Fiora">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Fiora.png" alt="Fiora">
+                                <span>Fiora</span>
+                            </div>
+                            <div class="matchup" data-champion="Sett">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Sett.png" alt="Sett">
+                                <span>Sett</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="matchup-category hard">
+                        <h3><i class="fas fa-skull"></i> Difficiles</h3>
+                        <div class="matchups">
+                            <div class="matchup" data-champion="Mordekaiser">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Mordekaiser.png" alt="Mordekaiser">
+                                <span>Mordekaiser</span>
+                            </div>
+                            <div class="matchup" data-champion="Darius">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Darius.png" alt="Darius">
+                                <span>Darius</span>
+                            </div>
+                            <div class="matchup" data-champion="Gwen">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Gwen.png" alt="Gwen">
+                                <span>Gwen</span>
+                            </div>
+                            <div class="matchup" data-champion="Camille">
+                                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Camille.png" alt="Camille">
+                                <span>Camille</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="specific-matchups">
+                    <h3><i class="fas fa-chess-knight"></i> Conseils pour les matchups clés</h3>
+                    <div class="matchup-detailed" data-matchup="Darius">
+                        <h4><img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Darius.png" alt="Darius" class="small-icon"> vs Darius</h4>
+                        <ul>
+                            <li>Évite les trades prolongés, il stackera son passif trop rapidement</li>
+                            <li>Attends qu'il utilise son Q avant d'engager pour le poke</li>
+                            <li>Focus sur le farming avec ton E et utilise ton Q pour slow et t'échapper</li>
+                            <li>Demande des ganks avant niveau 6, après tu pourras setup facilement avec ton R</li>
+                            <li>Rush Plaque de Ronces pour réduire son sustain et Tabi pour réduire ses dégâts</li>
+                        </ul>
+                    </div>
+                    <div class="matchup-detailed" data-matchup="Mordekaiser">
+                        <h4><img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Mordekaiser.png" alt="Mordekaiser" class="small-icon"> vs Mordekaiser</h4>
+                        <ul>
+                            <li>Ses dégâts magiques contrent ton armure, joue défensif et focus sur le farm</li>
+                            <li>Achète Force de la Nature en priorité pour réduire ses dégâts</li>
+                            <li>Esquive son E (la griffe) qui est sa principale source de dégâts</li>
+                            <li>Ne combat jamais dans son ulti, utilise ton Q pour t'enfuir de son royaume</li>
+                            <li>Envisage QSS en fin de partie pour contrer son ulti en teamfight</li>
+                        </ul>
+                    </div>
+                    <div class="matchup-detailed" data-matchup="Irelia">
+                        <h4><img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Irelia.png" alt="Irelia" class="small-icon"> vs Irelia</h4>
+                        <ul>
+                            <li>Matchup très favorable pour toi. Ton E réduit sa vitesse d'attaque</li>
+                            <li>Stack de l'armure tôt pour devenir intouchable</li>
+                            <li>Attends qu'elle utilise son Q sur un minion pour lui mettre un E</li>
+                            <li>Après niveau 6, tu peux facilement all-in si elle est à 70% de vie ou moins</li>
+                            <li>N'hésite pas à utiliser ton ulti pour l'empêcher de stack son passif</li>
+                        </ul>
+                    </div>
+                    <div class="matchup-detailed" data-matchup="Fiora">
+                        <h4><img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Fiora.png" alt="Fiora" class="small-icon"> vs Fiora</h4>
+                        <ul>
+                            <li>Matchup skill-based. Ton Q est prévisible, elle peut parer facilement</li>
+                            <li>Mix tes sorts pour être moins prévisible et tente des Q surprise</li>
+                            <li>Attends qu'elle utilise sa parade avant d'utiliser ton ulti</li>
+                            <li>Bramble Vest + Tabi en early neutralisera une grande partie de ses dégâts</li>
+                            <li>En teamfight, tu seras bien plus utile qu'elle. Focus les objectifs</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="phases" class="card fade-in">
+                <h2>Phases de jeu</h2>
+                <div class="game-phases">
+                    <div class="phase">
+                        <h3><i class="fas fa-seedling"></i> Early Game (1-6)</h3>
+                        <ul>
+                            <li><strong>Niveau 1-3:</strong> Farm prudemment, utilise ton passif pour des trades courts</li>
+                            <li><strong>Contre AD:</strong> Max E d'abord, trade quand ils s'approchent pour CS</li>
+                            <li><strong>Contre AP:</strong> Max Q d'abord, farm à distance et évite les trades</li>
+                            <li>Gestion de mana cruciale: ne spam pas tes sorts avant d'avoir Biscuits/items mana</li>
+                            <li>Priorize CS et XP plutôt que de trader contre des matchups difficiles</li>
+                            <li>Ward à 3:15 pour éviter les ganks, tu es vulnérable sans ton ulti</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <h3><i class="fas fa-street-view"></i> Mid Game (7-15)</h3>
+                        <ul>
+                            <li>Utilise TP pour aider aux dragons et herald quand c'est important</li>
+                            <li>Tu peux facilement initier des ganks bot avec ton ulti</li>
+                            <li>Pousse ta lane et envahis la jungle ennemie avec ton jungler</li>
+                            <li>Excellent dans les skirmishes jungle grâce au terrain étroit</li>
+                            <li>Si tu es tank, commence à absorber la pression et initier les teamfights</li>
+                            <li>Si tu es AP, cherche à éliminer les carries adverses avec ton combo</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <h3><i class="fas fa-crown"></i> Late Game (16+)</h3>
+                        <ul>
+                            <li>Ton ulti peut changer l'issue d'un combat, garde-le pour le bon moment</li>
+                            <li>En Tank: Protège tes carries et contrôle les frontlines</li>
+                            <li>En AP: Positionne-toi comme un assassin, cherche les flanks sur les carries</li>
+                            <li>Utilise TP pour gérer les sidelines puis rejoindre les teamfights</li>
+                            <li>Vision autour des objectifs majeurs est cruciale pour tes engages</li>
+                            <li>Avec Démolition tu peux split push efficacement si nécessaire</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tips" class="card fade-in">
+                <h2>Astuces avancées</h2>
+                <div class="advanced-tips">
+                    <div class="tip">
+                        <h3><i class="fas fa-fist-raised"></i> Combos</h3>
+                        <ul>
+                            <li><strong>Combo Engage:</strong> R → E → Q → W (auto-attaques) pour maximiser ton CC</li>
+                            <li><strong>Combo AP Burst:</strong> Q (pour le slow) → R → E → W pour one-shot</li>
+                            <li><strong>Setup pour Gank:</strong> Q pour slow → E → votre jungler engage → R pour finir</li>
+                            <li><strong>Combo Trade Court:</strong> Q → E → retraite (utilise le speed boost du Q)</li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-rocket"></i> Tech avec R</h3>
+                        <ul>
+                            <li>Flash + R est quasi impossible à réagir, utilise-le pour surprendre</li>
+                            <li>Ton R peut être utilisé pour traverser des murs et des terrains</li>
+                            <li>Vise les champions immobiles (ceux qui recall par exemple)</li>
+                            <li>Attendre les CC ennemis importants avant d'utiliser ton ulti</li>
+                            <li>Parfois il est mieux de garder ton ulti pour peeler les assassins de tes carries</li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-shield-alt"></i> Astuces de Tank</h3>
+                        <ul>
+                            <li>Ton passif se recharge après 8 secondes sans dégâts, positionne-toi en conséquence</li>
+                            <li>Alterner entre builds tank et AP selon la composition ennemie</li>
+                            <li>Considère Randuin contre les champions critiques (Yasuo, Tryndamere, etc.)</li>
+                            <li>Utiliser W juste avant de prendre des dégâts pour maximiser ton armure</li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-eye"></i> Vision et Macro</h3>
+                        <ul>
+                            <li>Place des wards profonds pour trouver des flanks avec ton ulti</li>
+                            <li>Utilise tes TP pour les flanks et diviser l'équipe ennemie</li>
+                            <li>Un bon ulti dans un couloir de jungle peut toucher toute l'équipe ennemie</li>
+                            <li>Si l'ennemi n'a pas de Flash, ton ulti est une élimination garantie</li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-trophy"></i> Conseils pour Gold</h3>
+                        <ul>
+                            <li>Malphite est excellent pour grimper en rang grâce à sa simplicité</li>
+                            <li>Communique avec ton équipe avant d'engager avec ton ulti</li>
+                            <li>En AP, vise toujours les priorités (mid/adc) en teamfight</li>
+                            <li>En tank, apprends à absorber les skillshots ennemis pour ton équipe</li>
+                            <li>Malphite est un excellent choix en blind pick grâce à sa polyvalence</li>
+                            <li>En SoloQ, le build AP est souvent plus efficace pour porter jusqu'en Gold</li>
+                        </ul>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-brain"></i> Mental & Progression</h3>
+                        <ul>
+                            <li>Ne te décourage pas contre les matchups difficiles, tu scales bien</li>
+                            <li>Un seul bon ulti peut gagner une partie, sois patient</li>
+                            <li>Pratique les timings de ton R sur les champions avec dash/flash</li>
+                            <li>Focus les objectifs plutôt que les kills, ton ulti est excellent pour les contestations</li>
+                            <li>Entraîne-toi à hit ton ulti sur les cibles qui bougent erratiquement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="trick-videos">
+                    <h3><i class="fas fa-video"></i> Démos vidéo recommandées</h3>
+                    <p>Pour voir ces techniques en action, regarde ces vidéos :</p>
+                    <ul>
+                        <li>Vidéos de gameplay de TheShy et Alphari jouant Malphite top</li>
+                        <li>Guides du YouTuber "Neace" sur Malphite pour grimper</li>
+                        <li>VODs des matchups spécifiques sur DomisumReplay</li>
+                        <li>Compilations d'ultis Malphite pro sur League Highlights</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3><i class="fas fa-star"></i> Tank vs AP</h3>
+                <p>Malphite peut se jouer tank (fiable) ou full AP (plus risqué mais plus d'impact). Le build AP est souvent meilleur pour grimper en SoloQ sous Gold car tu peux porter les teamfights seul.</p>
+            </div>
+            <div class="sidebar-section">
+                <h3><i class="fas fa-chess-queen"></i> Impact d'ulti</h3>
+                <p>Ton ulti est l'une des meilleures capacités d'engage du jeu. Un bon ulti sur les bonnes cibles peut instantanément gagner un combat décisif et la partie.</p>
+            </div>
+            <div class="sidebar-section">
+                <h3><i class="fas fa-exclamation-triangle"></i> Rappels</h3>
+                <ul>
+                    <li>Tu es fragile contre les champions AP en early, joue prudemment</li>
+                    <li>Ton mana est limité, ne spam pas tes sorts sans items</li>
+                    <li>Tu es extrêmement fort contre les compos AD</li>
+                    <li>La portée de ton ulti est plus grande que ce qu'elle semble</li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <h3><i class="fas fa-chart-line"></i> Progression en ranked</h3>
+                <div class="progress-tracker">
+                    <div class="rank">
+                        <img src="https://opgg-static.akamaized.net/images/medals/silver_1.png" alt="Silver 1" class="rank-icon">
+                        <span>Silver → Gold</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                    </div>
+                    <div class="progress-stats">
+                        <span>75 LP</span>
+                        <span>5 victoires consécutives</span>
+                    </div>
+                </div>
+                <p class="progress-note">Malphite est idéal pour grimper, avec un winrate moyen de 53% en SoloQ.</p>
+            </div>
+            <div class="sidebar-section">
+                <h3><i class="fas fa-lightbulb"></i> Conseil du jour</h3>
+                <div class="tip-of-day">
+                    <p>"En tant que Malphite, tu n'as pas besoin de toujours initier les combats. Parfois, attendre que l'ennemi engage et contre-engager avec ton ulti est plus efficace."</p>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <h3><i class="fas fa-history"></i> Mises à jour</h3>
+                <div class="updates">
+                    <div class="update-item">
+                        <span class="update-date">15 Avr 2025</span>
+                        <span class="update-text">Ajout des matchups détaillés et builds optimisés</span>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-date">10 Avr 2025</span>
+                        <span class="update-text">Mise à jour pour le patch 14.8</span>
+                    </div>
+                    <div class="update-item">
+                        <span class="update-date">25 Mar 2025</span>
+                        <span class="update-text">Création du guide</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Malphite.png" alt="Malphite" class="footer-icon">
+                <h3 class="text-gradient">Malphite TOP Guide</h3>
+            </div>
+            <div class="footer-links">
+                <a href="#overview">Aperçu</a>
+                <a href="#runes">Runes</a>
+                <a href="#builds">Builds</a>
+                <a href="#matchups">Matchups</a>
+                <a href="#tips">Astuces</a>
+            </div>
+            <div class="footer-credits">
+                <p>Créé par <span class="text-accent">LeCaillouxDeLaTopLane</span> pour Top Diff</p>
+                <p>Dernière mise à jour: Avril 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script-premium.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
